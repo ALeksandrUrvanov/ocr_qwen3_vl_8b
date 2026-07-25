@@ -1,0 +1,12 @@
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.6
+python-multipart==0.0.22
+
+# Document processing
+pdf2image==1.17.0
+Pillow==12.1.1
+
+# llama-server HTTP client
+requests==2.32.5

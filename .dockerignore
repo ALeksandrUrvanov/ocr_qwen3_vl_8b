@@ -1,0 +1,71 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# Virtual environments
+.venv
+venv
+env
+ENV
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose*.yml
+
+# CI/CD
+.github
+.gitlab-ci.yml
+
+# Tests
+# test.py - НЕ игнорируем, нужен для отладки в контейнере
+test_api.py
+tests/
+*.test.py
+
+# Docs
+README.md
+DEPLOYMENT.md
+*.md
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+storage/temp/*
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+test*.pdf
+test*.py
+models/
+storage/
+qwen3_vl_8b/
+.venv
